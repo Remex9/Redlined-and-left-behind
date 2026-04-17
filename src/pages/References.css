@@ -1,0 +1,27 @@
+.ref-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ref-item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.ref-num {
+  flex-shrink: 0;
+  color: var(--red);
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+.ref-item p {
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: var(--gray);
+}
