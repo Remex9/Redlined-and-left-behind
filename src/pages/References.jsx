@@ -35,7 +35,7 @@ const refs = [
   },
   {
     id: 9,
-    citation: 'Cambria, Nicole, et al. Segregation in St. Louis: Dismantling the Divide. Washington University in St. Louis, 2018.',
+    citation: 'Trailnet. "Connecting St. Louis: Streets Recommendations." Trailnet, 2019, trailnet.org/our-work/planning/community/connecting-st-louis-streets-recommendations/.',
   },
   {
     id: 10,
@@ -60,6 +60,34 @@ const refs = [
   {
     id: 15,
     citation: 'Image used in History CTA background (/images/metrolink-map.png): St. Louis MetroLink system map (OP220484 MetroLink kiosk map update graphic). Source file provided by project owner; cite original publisher/author if available.',
+  },
+  {
+    id: 16,
+    citation: 'City of St. Louis. "Transit Frequency - Equity Indicators." City of St. Louis, 2018. www.stlouis-mo.gov/archives/resilience/equity/opportunity/neighborhoods/transit-frequency.cfm.',
+  },
+  {
+    id: 17,
+    citation: 'Center for Neighborhood Technology. "AllTransit FAQ." AllTransit, alltransit.cnt.org/faq/.',
+  },
+  {
+    id: 18,
+    citation: 'Shared-Use Mobility Center. First and Last Mile Connectivity for Missourians. Missouri Department of Transportation, 2024, sharedusemobilitycenter.org/wp-content/uploads/2025/03/dot_78690_DS1.pdf.',
+  },
+  {
+    id: 19,
+    citation: 'Cambria, Nicole, et al. Segregation in St. Louis: Dismantling the Divide. Washington University in St. Louis, 2018.',
+  },
+  {
+    id: 20,
+    citation: 'Front Porch Investments. "Greenlining Fund." Front Porch Investments, frontporchinvestments.org/what-we-do/greenlining-fund/greenlining.html.',
+  },
+  {
+    id: 21,
+    citation: '"Advocate for BRT to Reach Dutchtown and Beyond." DutchtownSTL, 26 Jan. 2026, dutchtownstl.org/2026/01/brt-dutchtown/.',
+  },
+  {
+    id: 22,
+    citation: 'Austin, Benjamin, et al. Advancing Equitable Community-Based Transportation Planning. Othering & Belonging Institute, University of California, Berkeley, 2023.',
   },
 ];
 

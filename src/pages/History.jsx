@@ -12,9 +12,14 @@ export default function History() {
         <p>
           In the 1930s, the federal Home Owners' Loan Corporation (HOLC) sent surveyors into cities 
           across America to grade neighborhoods on a color-coded scale: green for "best," blue for 
-          "still desirable," yellow for "declining," and red for "hazardous."<sup><Link to="/references" style={{ color: 'var(--red)', textDecoration: 'none' }}>1</Link></sup> The grades 
+          "still desirable," yellow for "declining," and red for "hazardous."<sup><Link to="/references" style={{ color: 'var(--red)', textDecoration: 'none' }}>4</Link></sup> The grades 
           determined whether residents could access mortgage loans and investment. In practice, 
           "hazardous" almost always meant Black.
+        </p>
+        <p>
+          Before turning to St. Louis specifically, this example from Baltimore offers a broader
+          national case study. It helps show how redlining worked across American cities before
+          narrowing to the local consequences in St. Louis.
         </p>
 
         <div className="video-container">
@@ -26,15 +31,15 @@ export default function History() {
           />
         </div>
         <p style={{ fontSize: '0.8rem', fontFamily: 'IBM Plex Mono', color: 'var(--gray)' }}>
-          ↑ Background: How HOLC redlining maps worked across American cities.
+          ↑ Background: How HOLC redlining maps worked across American cities.<sup><Link to="/references" style={{ color: 'var(--red)', textDecoration: 'none' }}>13</Link></sup>
         </p>
       </div>
 
       <div className="section">
-        <h2>St. Louis Specifically</h2>
+        <h2>Redlining in St. Louis</h2>
         <p>
           St. Louis is one of the most segregated cities in the United States, and its HOLC maps 
-          show exactly why.<sup><Link to="/references" style={{ color: 'var(--red)', textDecoration: 'none' }}>2</Link></sup> Neighborhoods like The Ville, Penrose, and much of North St. Louis 
+          show exactly why.<sup><Link to="/references" style={{ color: 'var(--red)', textDecoration: 'none' }}>1</Link></sup> Neighborhoods like The Ville, Penrose, and much of North St. Louis 
           were graded "hazardous": not because of building quality, but because of who lived there. 
           Those grades cut off entire communities from the investment that built the American middle class.
         </p>
@@ -45,9 +50,9 @@ export default function History() {
         </div>
 
         <p>
-          The Washington University report <em>Segregation in St. Louis: Dismantling the Divide</em> 
-          documents how redlining, racial covenants, and exclusionary zoning worked together to 
-          concentrate poverty in specific ZIP codes that remain disinvested today.<sup><Link to="/references" style={{ color: 'var(--red)', textDecoration: 'none' }}>4</Link></sup> The 
+          The Washington University report <em>Segregation in St. Louis: Dismantling the Divide</em>
+          documents how redlining, racial covenants, and exclusionary zoning worked together to
+          concentrate poverty in specific ZIP codes that remain disinvested today.<sup><Link to="/references" style={{ color: 'var(--red)', textDecoration: 'none' }}>19</Link></sup> The 
           geography didn't happen by accident. It was engineered.
         </p>
       </div>
@@ -99,7 +104,7 @@ export default function History() {
             </h2>
             <p style={{ color: '#9A9A8A', fontSize: '1rem', maxWidth: '480px', lineHeight: 1.7 }}>
               The history set the stage. Now see how it plays out in real commute times, 
-              cancelled rail lines, and the neighborhoods still waiting for a bus that runs on time.
+              cancelled rail lines, and the neighborhoods still waiting for a bus that runs on time.<sup><Link to="/references" style={{ color: '#F4A836', textDecoration: 'none' }}>15</Link></sup>
             </p>
           </div>
           <div style={{ fontSize: '3rem', color: '#C0392B', flexShrink: 0 }}>→</div>

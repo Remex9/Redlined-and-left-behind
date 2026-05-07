@@ -64,6 +64,9 @@ export default function Home() {
             alt="Map comparison showing redlining differences across Delmar Boulevard"
             className="about-map-image"
           />
+          <p style={{ marginTop: '10px', fontSize: '0.8rem', fontFamily: 'IBM Plex Mono', color: '#9A9A8A' }}>
+            Delmar Divide comparison image.<sup><Link to="/references" style={{ color: 'var(--red)', textDecoration: 'none' }}>14</Link></sup>
+          </p>
         </div>
         <div className="about-right">
           <p>

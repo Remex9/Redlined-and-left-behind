@@ -4,16 +4,25 @@ const solutions = [
   {
     title: 'Greenlining Funds',
     desc: 'Direct public investment into formerly redlined corridors to reverse decades of deliberate disinvestment and improve access to jobs, services, and housing stability.',
+    example:
+      'For example, Omaha\'s Greenlining Fund uses community guidance to reinvest in formerly redlined neighborhoods through homeownership support, home repair loans, and displacement prevention. A similar model in St. Louis could target neighborhoods harmed by redlining while also protecting residents from being priced out.',
+    cite: 20,
     color: 'var(--green)',
   },
   {
     title: 'Equity Transit Corridors',
     desc: 'Prioritize high-frequency routes through neighborhoods with long commute times and weak regional access, instead of only reinforcing already well-served corridors.',
+    example:
+      'A local example is the discussion around Bus Rapid Transit in St. Louis. Advocates argue that BRT could connect neighborhoods such as Dutchtown to Downtown, Midtown, MetroLink lines, and major job centers. This shows how corridor-based transit investment could directly address access-to-jobs gaps.',
+    cite: 21,
     color: 'var(--blue)',
   },
   {
     title: 'Community-Centered Planning',
     desc: 'Move residents from consultation to decision-making power in route design, service priorities, and investment sequencing so policy reflects lived mobility needs.',
+    example:
+      'Equitable transportation planning research argues that agencies should shift power toward historically excluded communities, not just ask for feedback after plans are already formed. This matters for St. Louis because residents most affected by transit inequity should help decide which routes, stops, and investments come first.',
+    cite: 22,
     color: 'var(--red)',
   },
 ];
@@ -41,7 +50,13 @@ export default function Solutions() {
       </div>
 
       <div className="section">
-        <h2>Three Interventions That Could Work</h2>
+        <h2>Three Possible Interventions</h2>
+        <p>
+          These interventions are not just abstract recommendations. Similar approaches
+          have already been used or proposed in other cities and in St. Louis-area
+          transportation debates, which makes them realistic policy options rather than
+          only ideals.
+        </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', marginTop: '28px' }}>
           {solutions.map((item) => (
             <div
@@ -57,6 +72,18 @@ export default function Solutions() {
                 {item.title}
               </h3>
               <p>{item.desc}</p>
+              <p style={{ marginTop: '12px', color: 'var(--gray)' }}>
+                <strong style={{ color: 'var(--black)' }}>Example in practice: </strong>
+                {item.example}
+                <sup>
+                  <Link
+                    to="/references"
+                    style={{ color: 'var(--red)', textDecoration: 'none' }}
+                  >
+                    {item.cite}
+                  </Link>
+                </sup>
+              </p>
             </div>
           ))}
         </div>

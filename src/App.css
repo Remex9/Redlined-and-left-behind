@@ -41,7 +41,7 @@ h1, h2, h3 {
 .site-nav {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 10000;
   background: var(--cream);
   border-bottom: 2px solid var(--dark);
 }
@@ -142,19 +142,6 @@ sup {
   cursor: pointer;
 }
 
-.footnotes {
-  margin-top: 60px;
-  border-top: 2px solid var(--light-gray);
-  padding-top: 24px;
-  font-size: 0.85rem;
-  font-family: 'IBM Plex Mono', monospace;
-  color: var(--gray);
-}
-
-.footnotes p {
-  margin-bottom: 8px;
-}
-
 /* Video embed */
 .video-container {
   position: relative;
@@ -192,4 +179,9 @@ sup {
   height: 500px;
   border: 3px solid var(--dark);
   margin: 32px 0;
+}
+
+/* Ensure Leaflet layers never overlay the sticky nav */
+.leaflet-container {
+  z-index: 0;
 }

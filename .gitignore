@@ -1,0 +1,14 @@
+.DS_Store
+
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# Vite cache
+.vite/
+
+# local env files
+.env
+.env.*
