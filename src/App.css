@@ -21,8 +21,8 @@ body {
   background-color: var(--cream);
   color: var(--dark);
   font-family: 'Source Serif 4', serif;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 19px;
+  line-height: 1.75;
 }
 
 h1, h2, h3 {
@@ -79,7 +79,7 @@ h1, h2, h3 {
 
 .nav-links a {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.72rem;
+  font-size: 0.78rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--dark);
@@ -117,7 +117,7 @@ h1, h2, h3 {
 }
 
 .page-title {
-  font-size: 3rem;
+  font-size: 3.25rem;
   font-weight: 900;
   line-height: 1.1;
   margin-bottom: 12px;
@@ -128,7 +128,7 @@ h1, h2, h3 {
 }
 
 .section h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-bottom: 20px;
   border-left: 4px solid var(--red);
   padding-left: 16px;
